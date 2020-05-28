@@ -1,17 +1,8 @@
 # adminMongo
 
-![npm downloads badge](https://img.shields.io/npm/dm/admin-mongo.svg "npm download badge")
-![npm version badge](https://img.shields.io/npm/v/admin-mongo.svg "npm version badge")
-[![Build Status](https://travis-ci.org/mrvautin/adminMongo.svg?branch=master)](https://travis-ci.org/mrvautin/adminMongo)
-[![Github stars](https://img.shields.io/github/stars/mrvautin/adminMongo.svg?style=social&label=Star)](https://github.com/mrvautin/adminMongo)
-
 adminMongo is a cross platform user interface (GUI) to handle all your MongoDB connections/databases needs. adminMongo is fully responsive and should work on a range of devices.
 
 > adminMongo connection information (including username/password) is stored unencrypted in a config file, it is not recommended to run this application on a production or public facing server without proper security considerations.
-
-## Support
-
-If my work helps you, please consider [![buying me a coffee](https://cdn-images-1.medium.com/max/738/1*G95uyokAH4JC5Ppvx4LmoQ@2x.png)](https://www.buymeacoffee.com/mrvautin)
 
 ## Installation
 
@@ -39,26 +30,6 @@ To build for Linux:
 `$ npm run-script packageLinux`
 
 Once built, the executable will be in the `/releases` folder.
-
-### Prebuilt binaries
-
-Prebuilt binaries can be downloaded here:
-
-[Mac 64bit](https://github.com/mrvautin/adminMongo/releases/download/1.0.0/adminMongo_Mac.zip)
-
-[Windows 32bit](https://github.com/mrvautin/adminMongo/releases/download/1.0.0/adminMongo_Win32.zip)
-
-[Windows 64bit](https://github.com/mrvautin/adminMongo/releases/download/1.0.0/adminMongo_Win64.zip)
-
-> The Electron builds have been tested on Mac and Windows 10. Linux has not been tested. Please report any issues.
-
-## Deploy on Heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrvautin/adminMongo)
-
-## Demo (read only)
-
-A read only demo can be seen [here](http://demo.adminmongo.markmoffat.com)
 
 ## Features
 
