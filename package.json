@@ -62,8 +62,8 @@
     "lodash": "^4.13.1",
     "moment": "^2.14.1",
     "mongo-uri": "^0.1.2",
-    "mongodb": "^2.2.4",
-    "mongodb-backup": "^1.6.4",
+    "mongodb": "^3.5.8",
+    "mongodb-backup": "^3.1.13",
     "mongodb-extended-json": "^1.7.0",
     "mongodb-restore": "^1.5.4",
     "morgan": "~1.9.0",
@@ -83,8 +83,8 @@
     "eslint-plugin-promise": "^2.0.0",
     "eslint-plugin-standard": "^2.0.0",
     "jsdom": "^9.4.1",
-    "mocha": "^2.5.3",
+    "mocha": "^7.2.0",
     "mocha-jsdom": "^1.1.0",
-    "supertest": "^1.2.0"
+    "supertest": "^4.0.2"
   }
 }
