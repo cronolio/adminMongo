@@ -19,6 +19,11 @@
                 <a type="button" class="btn btn-danger btn-sm action_button" id="searchReset">{{__ "Reset"}}</a>
             </div>
         </div>
+        <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 text-right no-pad-right">
+            <div class="recordCount">
+                <strong>{{__ "Total records"}}:</strong> <span id="recordCount">0</span>
+            </div>
+        </div>
         <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 text-right">
             <div class="form-group">
                 <label for="docsPerPage" class="col-sm-6 control-label paginateLabel">Docs per page</label>
@@ -31,12 +36,6 @@
                         <option>100</option>
                     </select>
                 </div>
-            </div>
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 text-right no-pad-right">
-            <div class="recordCount">
-                <strong>{{__ "Total records"}}:</strong> <span id="recordCount">0</span>
-                <button class="btn btn-sm btn-danger" id="btnMassDelete">Delete all</button>
             </div>
         </div>
     </div>
